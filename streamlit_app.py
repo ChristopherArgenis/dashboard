@@ -4,7 +4,7 @@ import seaborn as sns
 
 titanic = sns.load_dataset('titanic')
 
-st.title("🎈 My new app")
-st.write(
-    "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
-)
+st.title("🎈 My dashboard")
+st.write("Mi primera aplicacion web con Streamlit.")
+st.subheader("Marco de datos del Titanic")
+st.dataframe(titanic)
